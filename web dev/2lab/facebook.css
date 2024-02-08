@@ -1,0 +1,158 @@
+html{
+    margin: 0;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background: #f0f2f5;
+    margin: auto;
+    padding: 0;
+}
+.box{
+    margin: auto;
+    padding: 72px 0 112px;
+}
+.title-box{
+    display: flex;
+    position: relative;
+    margin: 0 184px;
+    padding: 20px 0;
+    height: 496px;
+    width: 980px;
+}
+.left{  
+    display: inline-block;
+    float: none;
+    background: #f0f2f5;
+    padding-right: 32px;
+    width: 580px;
+    vertical-align: top;
+}
+.faceb_l{
+    padding: 112px 0 16px;
+    height: 106px;
+    margin: -28px;
+}
+.frm-box{
+    font-size: 12px;
+    line-height: 16.08px;
+    background-color: #fff;
+    text-align: center;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgb(0 0 0 / 10%), 0 8px 16px rgb(0 0 0 / 10%);  
+    margin-top: 40px;
+    border: none;
+    padding: 10px 0 24px;
+    width: 396px;
+    text-align: center;
+}
+.txt{
+    font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+    font-size: 28px;
+    color: black;
+    padding-bottom: 20px;
+    margin: 0;
+    line-height: 32px;
+    font-weight: 400;
+    width: 500px;
+}
+.form{
+    display: inline-block;
+    width: 396px;
+    height: 496px;
+    float: none;
+}
+.right{
+    display: inline-block;
+    background: #f0f2f5;
+    vertical-align: top;
+}
+
+.data-inpt{
+    color: rgb(28, 30, 33);
+    font-size: 17px;
+    width: 364px;
+    text-align: center;
+    line-height: 22.78px;
+    padding: 6px 0;
+    margin: auto;
+}
+.data-inpt input{
+    width: 330px;
+    height: 22px;
+    line-height: 16px;
+    padding: 14px 16px;
+    font-size: 17px;
+    border: 1px solid #dddfe2;
+    border-radius: 6px;
+}
+.login{
+    width: 364px;
+    margin: auto;
+    padding-top: 8px;
+}
+.login button{
+    background-color: rgb(22, 113, 232);
+    font-size: 20px;
+    width: 364px;
+    padding: 0 16px;
+    line-height: 48px;
+    font-weight: 700;
+    border: none;
+    border-color: #365899;
+    border-radius: 6px;
+    white-space: nowrap;
+    color: #fff;
+    cursor: pointer;
+}
+.login button:hover{
+    box-shadow: rgb(66, 183, 42);
+}
+.passw{
+    margin-top: 16px;
+    font-size: 12px;
+    color: rgb(28, 30, 33);
+    text-align: center;
+}
+.passw a{
+    color: #1877f2;
+    font-size: 14px;
+    font-weight: 500;
+    text-decoration: none;
+}
+.line{
+    border-bottom: 1px solid #dadde1;
+    display: flex;
+    margin: 20px 16px;
+    text-align: center;
+}
+.new-acc{
+    margin: auto;
+    padding-top: 6px;
+}
+.new-acc button{
+    background-color: rgb(66, 183, 42);
+    font-size: 17px;
+    padding: 0 16px;
+    line-height: 48px;
+    font-weight: 700;
+    border: none;
+    border-color:  rgb(66, 183, 42);
+    border-radius: 6px;
+    white-space: nowrap;
+    color: #fff;
+    cursor: pointer;
+}
+.new-page{
+    margin-top: 28px;
+    padding-top: 0px;
+    font-size: 14px;
+    font-weight: 400;
+    color: rgb(28, 30, 33);
+    text-align: center;
+}
+.new-page a{
+    font-size: 14px;
+    font-weight: 600;
+    text-decoration: none;
+    color: rgb(28, 30, 33);
+}
